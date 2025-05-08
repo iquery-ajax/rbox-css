@@ -914,7 +914,7 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			margin-bottom: 15px;
+			margin-bottom: 1px;
 			padding: 0 40px
 		}
 
@@ -1207,7 +1207,7 @@
 		/* steps */
 
 		#step {
-			padding: 30px 30px;
+			padding: 0px 30px;
 			text-align: center;
 			background: #fff;
 			border-radius: 3px;
@@ -1472,7 +1472,7 @@
                                                                 width: 92%;
                                                             }
                                                             #step {
-                                                                padding: 30px 10px;
+                                                                padding: 0px 10px;
                                                                 text-align: center;
                                                                 background: #fff;
                                                                 border-radius: 3px;
@@ -1480,4 +1480,25 @@
                                                             .robux-bonus {
                                                                 display: none;
                                                             }
+                                                        }
+                                                        
+                                                        .maintworowlock {
+                                                            margin: 0 10px;
+                                                            text-align: center;
+                                                            background: #ebebeb;
+                                                            border-radius: 4px;
+                                                            padding: 12px 0 12px 0;
+                                                        }
+                                                        .maintworowlockoffer {
+                                                            margin: 10px;
+                                                            text-align: center;
+                                                            background: #eafff7;
+                                                            color:#00b06f;
+                                                            border-radius: 4px;
+                                                            padding: 1px 12px;
+                                                        }
+                                                        .imguser {
+                                                            background: #ffffff;
+                                                            border-radius: 100px;
+                                                            border: 3px solid #00b06f;
                                                         }
